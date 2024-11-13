@@ -3,7 +3,7 @@ import {createTheme} from '@mui/material/styles';
 import {themeSettings} from 'theme';
 import { useSelector } from 'react-redux';
 import { useMemo } from 'react';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Dashboard from 'scenes/dashboard';
 import Layout from 'scenes/layout';
 import Products from 'scenes/products';
@@ -20,7 +20,7 @@ function App() {
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
   return (
     <div className="app">
-      <BrowserRouter>
+      <HashRouter>
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <Routes>
@@ -39,7 +39,7 @@ function App() {
             </Route>
           </Routes>
         </ThemeProvider>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
