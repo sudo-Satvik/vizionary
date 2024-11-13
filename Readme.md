@@ -9,8 +9,6 @@
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -37,7 +35,7 @@ Vizionary is an admin dashboard that provides dynamic data visualization capabil
 
 ### Frontend
 - **React**: For Frontend
-- **Material UI**: For UI styling and Data Grid
+- **Material UI**: For UI styling and DataGrid
 - **Nivo**: For interactive and customizable charts
 - **Redux Toolkit**: For efficient state management
 - **RTK Query**: For API calls
@@ -51,7 +49,7 @@ Vizionary is an admin dashboard that provides dynamic data visualization capabil
 
 ### Prerequisites
 
-Ensure you have the following installed:
+Ensure you have the following installed/setup:
 - **Node.js**
 - **MongoDB**
 
@@ -68,8 +66,13 @@ Ensure you have the following installed:
 
    ```bash
    npm install
+   ```
+   or
+   ```bash
+   npm i
+   ```
 
-3. **Environment Variables**
+4. **Environment Variables**
 
    Create a `.env` file in the root directory and add necessary environment variables:
 
@@ -78,18 +81,18 @@ Ensure you have the following installed:
    PORT=5000
 
 
-4. **Run the application**
+5. **Run the application**
 
    For both frontend and backend:
 
    ```bash
    # Start backend server
-    npm run server
+    npm run dev
    # Start frontend
-    npm run client
+    npm run start
 
 
-The application should now be accessible at http://localhost:3000.
+The application should now be accessible at `http://localhost:3000`.
 
 ## Setup
 
