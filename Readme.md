@@ -57,8 +57,8 @@ Ensure you have the following installed/setup:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/Vizionary.git
-   cd Vizionary
+   git clone https://github.com/your-username/vizionary.git
+   cd vizionary
 
 2. **Install dependencies**
 
