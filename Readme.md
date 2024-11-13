@@ -3,6 +3,10 @@
 
 **Vizionary** is a comprehensive full-stack admin dashboard application built with the MERN stack. It offers an intuitive and interactive interface for data visualization and management, making it ideal for analytical and administrative tasks.
 
+## Screenshot
+
+![Screenshot](image-2.png)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
